@@ -1,12 +1,7 @@
-import './App.css'
+import { FetchDemo } from './components/FetchDemo';
 
 function App() {
-
-  return (
-    <h1 className="text-3xl font-bold underline">
-      Hello world!
-    </h1>
-  )
+  return <FetchDemo />;
 }
 
-export default App
+export default App;
