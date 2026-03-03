@@ -49,7 +49,7 @@ export const PostDetailDemo = () => {
 
       {data && !isLoading && (
         <div className="space-y-4">
-          <div className="p-6 bg-gradient-to-r from-blue-500 to-purple-600 rounded-xl text-white">
+          <div className="p-6 bg-linear-to-r from-blue-500 to-purple-600 rounded-xl text-white">
             <h4 className="text-2xl font-bold mb-2">{data.title}</h4>
             <div className="flex items-center gap-4 text-sm opacity-90">
               <span>👤 {data.author}</span>
