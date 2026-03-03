@@ -105,7 +105,7 @@ export const PollingDemo = () => {
           </div>
 
           {/* Value */}
-          <div className="p-6 bg-gradient-to-r from-purple-500 to-pink-600 rounded-xl text-white">
+          <div className="p-6 bg-linear-to-r from-purple-500 to-pink-600 rounded-xl text-white">
             <div className="text-center">
               <div className="text-5xl font-bold mb-2">
                 {data.value}
