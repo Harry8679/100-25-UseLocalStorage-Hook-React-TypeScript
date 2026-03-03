@@ -129,6 +129,7 @@ export const useFetch = <TData, TError = Error>(
         abortControllerRef.current.abort();
       }
     };
+  // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [executeFetch, ...dependencies]);
 
   // Polling
